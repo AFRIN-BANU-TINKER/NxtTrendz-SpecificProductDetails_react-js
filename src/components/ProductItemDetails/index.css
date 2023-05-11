@@ -1,0 +1,172 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  padding-left: 100px;
+}
+
+.f-img {
+  height: 350px;
+  width: 350px;
+  margin: 20px;
+}
+
+.loader-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.f1-img {
+  height: 580px;
+  width: 450px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  margin-left: 50px;
+}
+
+.head-1 {
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin: 20px;
+  margin-left: 100px;
+}
+
+.butt {
+  height: 30px;
+  width: 120px;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: 'Roboto';
+  color: white;
+  background-color: #3b82f6;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ps-head-1 {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.ps-par-1 {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #171f46;
+  font-weight: 700;
+}
+
+.ps-card-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ps-par-2 {
+  margin-left: 25px;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.ps-par-3 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #616e7c;
+}
+
+.ps-par-4 {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #171f46;
+  font-weight: 800;
+}
+
+.s-par {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #616e7c;
+  font-weight: 500;
+  margin-left: 7px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.main-card {
+  width: 450px;
+}
+
+.plus-style {
+  font-size: 25px;
+}
+
+.ps-l-par {
+  font-size: 25px;
+  color: #616e7c;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.butt-ps-s {
+  height: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: 'Roboto';
+  color: white;
+  background-color: #3b82f6;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hi-ps {
+  border: none;
+  background-color: transparent;
+}
+
+.available-cont {
+  display: flex;
+  line-height: 1;
+}
+
+@media screen and (max-width: 560px) {
+  .list-container {
+    flex-direction: column;
+  }
+  .bg-container {
+    flex-direction: column;
+  }
+
+  .f-img {
+    height: 150px;
+    width: 70%;
+  }
+  .bg-container {
+    padding-left: 10px;
+    padding: 20px;
+  }
+  .f1-img {
+    width: 80%;
+    height: 350px;
+  }
+
+  .ps-head-1 {
+    font-size: 25px;
+  }
+}

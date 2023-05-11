@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.ls-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.l-cont {
+  margin: 20px;
+}
+
+.ls-head-1 {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.ls-par-1 {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 560px) {
+  .card-1 {
+    width: 200px;
+  }
+}
+
+.lsr-img {
+  height: 15px;
+  width: 15px;
+}
+
+.rate-cont {
+  height: 35px;
+  width: 70px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  color: white;
+  background-color: #3b82f6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
